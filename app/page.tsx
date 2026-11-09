@@ -29,8 +29,8 @@ export default function HomePage() {
           </span>
 
           <h1 className="mt-5 text-3xl font-extrabold leading-tight sm:text-5xl">
-            The DIGETECH team is opening its doors to{' '}
-            <span className="text-primary">{TOTAL_SPOTS} year one and two students</span> who would like to gain real
+            The KASH team is opening its doors to{' '}
+            <span className="text-primary">{TOTAL_SPOTS} University students</span> who would like to gain real
             world experience on project development and work with real projects like{' '}
             <span className="italic text-primary">KASH</span>.
           </h1>
@@ -42,7 +42,7 @@ export default function HomePage() {
           <div className="mt-6 flex items-start gap-3 rounded-2xl border border-warning/30 bg-warning/10 p-4">
             <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-warning" />
             <p className="text-sm font-extrabold uppercase tracking-wide">
-              NB. This is strictly a volunteering activity.
+              NB. Please fill all fields.
             </p>
           </div>
         </section>
