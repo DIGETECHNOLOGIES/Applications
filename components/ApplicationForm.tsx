@@ -141,7 +141,7 @@ export function ApplicationForm() {
 
         <Field label="Year of study" error={errors.yearOfStudy?.message}>
           <div className="grid grid-cols-2 gap-3">
-            {(['1', '2'] as const).map((y) => (
+            {(['1', '2', '3', '4', '5'] as const).map((y) => (
               <label
                 key={y}
                 className="flex h-12 cursor-pointer items-center justify-center rounded-xl border border-border bg-background text-sm font-bold transition-all has-checked:border-primary has-checked:bg-primary/10 has-checked:text-primary-dark"
